@@ -16,7 +16,7 @@ import { WebSocketServer, WebSocket } from 'ws'
 
 
 
-// TODO maybe use https://github.com/TypeFox/monaco-languageclient/blob/60a39f2bdf33281940c4697af2481aeab1276aa8/packages/vscode-ws-jsonrpc/src/socket/reader.ts#L10
+// TODO maybe use https://github.com/TypeFox/monaco-languageclient/blob/60a39f2bdf33281940c4697af2481aeab1276aa8/packages/vscode-ws-jsonrpc/src/socket/reader.ts#L10g
 class WebSocketMessageWriter extends AbstractMessageWriter {
     private readonly ws: WebSocket;
 

@@ -20612,8 +20612,24 @@
       "imports": [],
       "format": "esm"
     },
+    "out/language/hello-semantic-tokens.js": {
+      "bytes": 1340,
+      "imports": [
+        {
+          "path": "node_modules/langium/lib/index.js",
+          "kind": "import-statement",
+          "original": "langium"
+        },
+        {
+          "path": "node_modules/vscode-languageserver/lib/node/main.js",
+          "kind": "import-statement",
+          "original": "vscode-languageserver"
+        }
+      ],
+      "format": "esm"
+    },
     "out/language/hello-world-module.js": {
-      "bytes": 1655,
+      "bytes": 1832,
       "imports": [
         {
           "path": "node_modules/langium/lib/index.js",
@@ -20629,6 +20645,11 @@
           "path": "out/language/hello-world-validator.js",
           "kind": "import-statement",
           "original": "./hello-world-validator.js"
+        },
+        {
+          "path": "out/language/hello-semantic-tokens.js",
+          "kind": "import-statement",
+          "original": "./hello-semantic-tokens.js"
         }
       ],
       "format": "esm"
@@ -20976,7 +20997,7 @@
       "format": "esm"
     },
     "out/web/app.js": {
-      "bytes": 2514,
+      "bytes": 2680,
       "imports": [
         {
           "path": "node_modules/vscode-languageserver/node.js",
@@ -21419,7 +21440,7 @@
           "bytesInOutput": 3622
         },
         "node_modules/langium/lib/grammar/generated/ast.js": {
-          "bytesInOutput": 10949
+          "bytesInOutput": 15562
         },
         "node_modules/langium/lib/utils/ast-util.js": {
           "bytesInOutput": 3920
@@ -21440,7 +21461,7 @@
           "bytesInOutput": 11512
         },
         "node_modules/langium/lib/grammar/type-system/type-collector/types.js": {
-          "bytesInOutput": 15000
+          "bytesInOutput": 15011
         },
         "node_modules/langium/lib/grammar/type-system/types-util.js": {
           "bytesInOutput": 3479
@@ -21497,7 +21518,7 @@
           "bytesInOutput": 1413
         },
         "node_modules/langium/lib/grammar/type-system/ast-collector.js": {
-          "bytesInOutput": 4173
+          "bytesInOutput": 4174
         },
         "node_modules/langium/lib/grammar/generated/module.js": {
           "bytesInOutput": 492
@@ -22588,14 +22609,17 @@
         "out/language/hello-world-validator.js": {
           "bytesInOutput": 622
         },
+        "out/language/hello-semantic-tokens.js": {
+          "bytesInOutput": 798
+        },
         "out/language/hello-world-module.js": {
-          "bytesInOutput": 474
+          "bytesInOutput": 570
         },
         "node_modules/ws/wrapper.mjs": {
           "bytesInOutput": 282
         }
       },
-      "bytes": 1379567
+      "bytes": 1385256
     }
   }
 }
