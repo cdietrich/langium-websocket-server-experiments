@@ -4166,7 +4166,7 @@
       "format": "esm"
     },
     "out/web/app.js": {
-      "bytes": 4688,
+      "bytes": 4823,
       "imports": [
         {
           "path": "node_modules/vscode-ws-jsonrpc/lib/index.js",
@@ -5409,13 +5409,13 @@
           "bytesInOutput": 1011
         },
         "out/web/app.js": {
-          "bytesInOutput": 2377
+          "bytesInOutput": 2514
         },
         "node_modules/ws/wrapper.mjs": {
           "bytesInOutput": 280
         }
       },
-      "bytes": 1793108
+      "bytes": 1793245
     }
   }
 }

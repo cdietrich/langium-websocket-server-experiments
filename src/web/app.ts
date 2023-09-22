@@ -47,9 +47,7 @@ const launchLanguageServer = (socket: IWebSocket) => {
   const socketConnection = createConnection(reader, writer, () =>
     socket.dispose()
   );
-  const serverConnection: IConnection = createServerProcess("Example", "node", [
-    "./out/language/main.cjs", "--stdio"
-  ])!;
+  const serverConnection: IConnection = createServerProcess("Example", "/Users/dietrich/eclipse-workspaces/xlsp/org.xtext.example.mydsl.parent/org.xtext.example.mydsl.ide/build/distributions/org.xtext.example.mydsl.ide-1.0.0-SNAPSHOT/bin/org.xtext.example.mydsl.ide")!;
 
   forward(socketConnection, serverConnection, (message) => {
     if (Message.isNotification(message)) {
