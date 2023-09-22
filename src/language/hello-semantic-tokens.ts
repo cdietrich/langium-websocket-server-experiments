@@ -1,11 +1,18 @@
 import { AbstractSemanticTokenProvider, AstNode, GrammarAST, SemanticTokenAcceptor, flattenCst, isLeafCstNode } from "langium";
 import { SemanticTokenTypes } from "vscode-languageserver";
+import type { GrammarAST as x } from "langium";
 
 export class HelloSemanticTokenProvider extends AbstractSemanticTokenProvider {
+    doit(xxx: x.AbstractElement) {
+
+    }
+
     protected override highlightElement(node: AstNode, acceptor: SemanticTokenAcceptor): void | "prune" | undefined {
+       
         console.log("mimimimi3")
         if (node.$cstNode !== undefined && node.$container === undefined) {
             flattenCst(node.$cstNode).forEach ((cst) =>{
+                this.doit(cst.grammarSource);
                 
                 if (GrammarAST.isKeyword(cst.grammarSource) && "person" !== (cst.grammarSource as GrammarAST.Keyword).value) {
                     console.log("HelloSemanticTokenProvider", cst.tokenType.name)

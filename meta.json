@@ -20613,7 +20613,7 @@
       "format": "esm"
     },
     "out/language/hello-semantic-tokens.js": {
-      "bytes": 1340,
+      "bytes": 1408,
       "imports": [
         {
           "path": "node_modules/langium/lib/index.js",
@@ -20653,6 +20653,2201 @@
         }
       ],
       "format": "esm"
+    },
+    "node_modules/depd/index.js": {
+      "bytes": 10932,
+      "imports": [
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/bytes/index.js": {
+      "bytes": 3613,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/content-type/index.js": {
+      "bytes": 5002,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/setprototypeof/index.js": {
+      "bytes": 407,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/statuses/codes.json": {
+      "bytes": 1789,
+      "imports": []
+    },
+    "node_modules/statuses/index.js": {
+      "bytes": 2610,
+      "imports": [
+        {
+          "path": "node_modules/statuses/codes.json",
+          "kind": "require-call",
+          "original": "./codes.json"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/inherits/inherits_browser.js": {
+      "bytes": 753,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/inherits/inherits.js": {
+      "bytes": 250,
+      "imports": [
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/inherits/inherits_browser.js",
+          "kind": "require-call",
+          "original": "./inherits_browser.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/toidentifier/index.js": {
+      "bytes": 504,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/http-errors/index.js": {
+      "bytes": 6391,
+      "imports": [
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "node_modules/setprototypeof/index.js",
+          "kind": "require-call",
+          "original": "setprototypeof"
+        },
+        {
+          "path": "node_modules/statuses/index.js",
+          "kind": "require-call",
+          "original": "statuses"
+        },
+        {
+          "path": "node_modules/inherits/inherits.js",
+          "kind": "require-call",
+          "original": "inherits"
+        },
+        {
+          "path": "node_modules/toidentifier/index.js",
+          "kind": "require-call",
+          "original": "toidentifier"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/node_modules/ms/index.js": {
+      "bytes": 2764,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/node_modules/debug/src/debug.js": {
+      "bytes": 4394,
+      "imports": [
+        {
+          "path": "node_modules/body-parser/node_modules/ms/index.js",
+          "kind": "require-call",
+          "original": "ms"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/node_modules/debug/src/browser.js": {
+      "bytes": 4734,
+      "imports": [
+        {
+          "path": "node_modules/body-parser/node_modules/debug/src/debug.js",
+          "kind": "require-call",
+          "original": "./debug"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/node_modules/debug/src/node.js": {
+      "bytes": 6015,
+      "imports": [
+        {
+          "path": "tty",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/body-parser/node_modules/debug/src/debug.js",
+          "kind": "require-call",
+          "original": "./debug"
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/node_modules/debug/src/index.js": {
+      "bytes": 263,
+      "imports": [
+        {
+          "path": "node_modules/body-parser/node_modules/debug/src/browser.js",
+          "kind": "require-call",
+          "original": "./browser.js"
+        },
+        {
+          "path": "node_modules/body-parser/node_modules/debug/src/node.js",
+          "kind": "require-call",
+          "original": "./node.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/destroy/index.js": {
+      "bytes": 4258,
+      "imports": [
+        {
+          "path": "events",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "zlib",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/safer-buffer/safer.js": {
+      "bytes": 2110,
+      "imports": [
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/lib/bom-handling.js": {
+      "bytes": 1109,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/internal.js": {
+      "bytes": 6115,
+      "imports": [
+        {
+          "path": "node_modules/safer-buffer/safer.js",
+          "kind": "require-call",
+          "original": "safer-buffer"
+        },
+        {
+          "path": "string_decoder",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/utf16.js": {
+      "bytes": 5011,
+      "imports": [
+        {
+          "path": "node_modules/safer-buffer/safer.js",
+          "kind": "require-call",
+          "original": "safer-buffer"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/utf7.js": {
+      "bytes": 9215,
+      "imports": [
+        {
+          "path": "node_modules/safer-buffer/safer.js",
+          "kind": "require-call",
+          "original": "safer-buffer"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/sbcs-codec.js": {
+      "bytes": 2191,
+      "imports": [
+        {
+          "path": "node_modules/safer-buffer/safer.js",
+          "kind": "require-call",
+          "original": "safer-buffer"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/sbcs-data.js": {
+      "bytes": 4686,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/sbcs-data-generated.js": {
+      "bytes": 32034,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/dbcs-codec.js": {
+      "bytes": 21415,
+      "imports": [
+        {
+          "path": "node_modules/safer-buffer/safer.js",
+          "kind": "require-call",
+          "original": "safer-buffer"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/tables/shiftjis.json": {
+      "bytes": 23782,
+      "imports": []
+    },
+    "node_modules/iconv-lite/encodings/tables/eucjp.json": {
+      "bytes": 41064,
+      "imports": []
+    },
+    "node_modules/iconv-lite/encodings/tables/cp936.json": {
+      "bytes": 47320,
+      "imports": []
+    },
+    "node_modules/iconv-lite/encodings/tables/gbk-added.json": {
+      "bytes": 1227,
+      "imports": []
+    },
+    "node_modules/iconv-lite/encodings/tables/gb18030-ranges.json": {
+      "bytes": 2216,
+      "imports": []
+    },
+    "node_modules/iconv-lite/encodings/tables/cp949.json": {
+      "bytes": 38122,
+      "imports": []
+    },
+    "node_modules/iconv-lite/encodings/tables/cp950.json": {
+      "bytes": 42356,
+      "imports": []
+    },
+    "node_modules/iconv-lite/encodings/tables/big5-added.json": {
+      "bytes": 17717,
+      "imports": []
+    },
+    "node_modules/iconv-lite/encodings/dbcs-data.js": {
+      "bytes": 8291,
+      "imports": [
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/shiftjis.json",
+          "kind": "require-call",
+          "original": "./tables/shiftjis.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/eucjp.json",
+          "kind": "require-call",
+          "original": "./tables/eucjp.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/cp936.json",
+          "kind": "require-call",
+          "original": "./tables/cp936.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/cp936.json",
+          "kind": "require-call",
+          "original": "./tables/cp936.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/gbk-added.json",
+          "kind": "require-call",
+          "original": "./tables/gbk-added.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/cp936.json",
+          "kind": "require-call",
+          "original": "./tables/cp936.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/gbk-added.json",
+          "kind": "require-call",
+          "original": "./tables/gbk-added.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/gb18030-ranges.json",
+          "kind": "require-call",
+          "original": "./tables/gb18030-ranges.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/cp949.json",
+          "kind": "require-call",
+          "original": "./tables/cp949.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/cp950.json",
+          "kind": "require-call",
+          "original": "./tables/cp950.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/cp950.json",
+          "kind": "require-call",
+          "original": "./tables/cp950.json"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/tables/big5-added.json",
+          "kind": "require-call",
+          "original": "./tables/big5-added.json"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/encodings/index.js": {
+      "bytes": 710,
+      "imports": [
+        {
+          "path": "node_modules/iconv-lite/encodings/internal.js",
+          "kind": "require-call",
+          "original": "./internal"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/utf16.js",
+          "kind": "require-call",
+          "original": "./utf16"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/utf7.js",
+          "kind": "require-call",
+          "original": "./utf7"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/sbcs-codec.js",
+          "kind": "require-call",
+          "original": "./sbcs-codec"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/sbcs-data.js",
+          "kind": "require-call",
+          "original": "./sbcs-data"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/sbcs-data-generated.js",
+          "kind": "require-call",
+          "original": "./sbcs-data-generated"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/dbcs-codec.js",
+          "kind": "require-call",
+          "original": "./dbcs-codec"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/dbcs-data.js",
+          "kind": "require-call",
+          "original": "./dbcs-data"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/lib/streams.js": {
+      "bytes": 3387,
+      "imports": [
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/lib/extend-node.js": {
+      "bytes": 8701,
+      "imports": [
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/iconv-lite/lib/index.js": {
+      "bytes": 5123,
+      "imports": [
+        {
+          "path": "node_modules/safer-buffer/safer.js",
+          "kind": "require-call",
+          "original": "safer-buffer"
+        },
+        {
+          "path": "node_modules/iconv-lite/lib/bom-handling.js",
+          "kind": "require-call",
+          "original": "./bom-handling"
+        },
+        {
+          "path": "node_modules/iconv-lite/encodings/index.js",
+          "kind": "require-call",
+          "original": "../encodings"
+        },
+        {
+          "path": "node_modules/iconv-lite/lib/streams.js",
+          "kind": "require-call",
+          "original": "./streams"
+        },
+        {
+          "path": "node_modules/iconv-lite/lib/extend-node.js",
+          "kind": "require-call",
+          "original": "./extend-node"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/unpipe/index.js": {
+      "bytes": 1118,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/raw-body/index.js": {
+      "bytes": 6902,
+      "imports": [
+        {
+          "path": "node_modules/bytes/index.js",
+          "kind": "require-call",
+          "original": "bytes"
+        },
+        {
+          "path": "node_modules/http-errors/index.js",
+          "kind": "require-call",
+          "original": "http-errors"
+        },
+        {
+          "path": "node_modules/iconv-lite/lib/index.js",
+          "kind": "require-call",
+          "original": "iconv-lite"
+        },
+        {
+          "path": "node_modules/unpipe/index.js",
+          "kind": "require-call",
+          "original": "unpipe"
+        },
+        {
+          "path": "async_hooks",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/ee-first/index.js": {
+      "bytes": 1684,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/on-finished/index.js": {
+      "bytes": 4430,
+      "imports": [
+        {
+          "path": "node_modules/ee-first/index.js",
+          "kind": "require-call",
+          "original": "ee-first"
+        },
+        {
+          "path": "async_hooks",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/lib/read.js": {
+      "bytes": 4325,
+      "imports": [
+        {
+          "path": "node_modules/http-errors/index.js",
+          "kind": "require-call",
+          "original": "http-errors"
+        },
+        {
+          "path": "node_modules/destroy/index.js",
+          "kind": "require-call",
+          "original": "destroy"
+        },
+        {
+          "path": "node_modules/raw-body/index.js",
+          "kind": "require-call",
+          "original": "raw-body"
+        },
+        {
+          "path": "node_modules/iconv-lite/lib/index.js",
+          "kind": "require-call",
+          "original": "iconv-lite"
+        },
+        {
+          "path": "node_modules/on-finished/index.js",
+          "kind": "require-call",
+          "original": "on-finished"
+        },
+        {
+          "path": "node_modules/unpipe/index.js",
+          "kind": "require-call",
+          "original": "unpipe"
+        },
+        {
+          "path": "zlib",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/media-typer/index.js": {
+      "bytes": 6375,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/mime-db/db.json": {
+      "bytes": 185882,
+      "imports": []
+    },
+    "node_modules/mime-db/index.js": {
+      "bytes": 189,
+      "imports": [
+        {
+          "path": "node_modules/mime-db/db.json",
+          "kind": "require-call",
+          "original": "./db.json"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/mime-types/index.js": {
+      "bytes": 3663,
+      "imports": [
+        {
+          "path": "node_modules/mime-db/index.js",
+          "kind": "require-call",
+          "original": "mime-db"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/type-is/index.js": {
+      "bytes": 5562,
+      "imports": [
+        {
+          "path": "node_modules/media-typer/index.js",
+          "kind": "require-call",
+          "original": "media-typer"
+        },
+        {
+          "path": "node_modules/mime-types/index.js",
+          "kind": "require-call",
+          "original": "mime-types"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/lib/types/json.js": {
+      "bytes": 5012,
+      "imports": [
+        {
+          "path": "node_modules/bytes/index.js",
+          "kind": "require-call",
+          "original": "bytes"
+        },
+        {
+          "path": "node_modules/content-type/index.js",
+          "kind": "require-call",
+          "original": "content-type"
+        },
+        {
+          "path": "node_modules/http-errors/index.js",
+          "kind": "require-call",
+          "original": "http-errors"
+        },
+        {
+          "path": "node_modules/body-parser/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/body-parser/lib/read.js",
+          "kind": "require-call",
+          "original": "../read"
+        },
+        {
+          "path": "node_modules/type-is/index.js",
+          "kind": "require-call",
+          "original": "type-is"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/lib/types/raw.js": {
+      "bytes": 1884,
+      "imports": [
+        {
+          "path": "node_modules/bytes/index.js",
+          "kind": "require-call",
+          "original": "bytes"
+        },
+        {
+          "path": "node_modules/body-parser/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/body-parser/lib/read.js",
+          "kind": "require-call",
+          "original": "../read"
+        },
+        {
+          "path": "node_modules/type-is/index.js",
+          "kind": "require-call",
+          "original": "type-is"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/lib/types/text.js": {
+      "bytes": 2285,
+      "imports": [
+        {
+          "path": "node_modules/bytes/index.js",
+          "kind": "require-call",
+          "original": "bytes"
+        },
+        {
+          "path": "node_modules/content-type/index.js",
+          "kind": "require-call",
+          "original": "content-type"
+        },
+        {
+          "path": "node_modules/body-parser/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/body-parser/lib/read.js",
+          "kind": "require-call",
+          "original": "../read"
+        },
+        {
+          "path": "node_modules/type-is/index.js",
+          "kind": "require-call",
+          "original": "type-is"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/has-symbols/shams.js": {
+      "bytes": 1761,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/has-symbols/index.js": {
+      "bytes": 420,
+      "imports": [
+        {
+          "path": "node_modules/has-symbols/shams.js",
+          "kind": "require-call",
+          "original": "./shams"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/has-proto/index.js": {
+      "bytes": 197,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/function-bind/implementation.js": {
+      "bytes": 1463,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/function-bind/index.js": {
+      "bytes": 126,
+      "imports": [
+        {
+          "path": "node_modules/function-bind/implementation.js",
+          "kind": "require-call",
+          "original": "./implementation"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/has/src/index.js": {
+      "bytes": 129,
+      "imports": [
+        {
+          "path": "node_modules/function-bind/index.js",
+          "kind": "require-call",
+          "original": "function-bind"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/get-intrinsic/index.js": {
+      "bytes": 13323,
+      "imports": [
+        {
+          "path": "node_modules/has-symbols/index.js",
+          "kind": "require-call",
+          "original": "has-symbols"
+        },
+        {
+          "path": "node_modules/has-proto/index.js",
+          "kind": "require-call",
+          "original": "has-proto"
+        },
+        {
+          "path": "node_modules/function-bind/index.js",
+          "kind": "require-call",
+          "original": "function-bind"
+        },
+        {
+          "path": "node_modules/has/src/index.js",
+          "kind": "require-call",
+          "original": "has"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/call-bind/index.js": {
+      "bytes": 1306,
+      "imports": [
+        {
+          "path": "node_modules/function-bind/index.js",
+          "kind": "require-call",
+          "original": "function-bind"
+        },
+        {
+          "path": "node_modules/get-intrinsic/index.js",
+          "kind": "require-call",
+          "original": "get-intrinsic"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/call-bind/callBound.js": {
+      "bytes": 413,
+      "imports": [
+        {
+          "path": "node_modules/get-intrinsic/index.js",
+          "kind": "require-call",
+          "original": "get-intrinsic"
+        },
+        {
+          "path": "node_modules/call-bind/index.js",
+          "kind": "require-call",
+          "original": "./"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/object-inspect/util.inspect.js": {
+      "bytes": 42,
+      "imports": [
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/object-inspect/index.js": {
+      "bytes": 18582,
+      "imports": [
+        {
+          "path": "node_modules/object-inspect/util.inspect.js",
+          "kind": "require-call",
+          "original": "./util.inspect"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/side-channel/index.js": {
+      "bytes": 3391,
+      "imports": [
+        {
+          "path": "node_modules/get-intrinsic/index.js",
+          "kind": "require-call",
+          "original": "get-intrinsic"
+        },
+        {
+          "path": "node_modules/call-bind/callBound.js",
+          "kind": "require-call",
+          "original": "call-bind/callBound"
+        },
+        {
+          "path": "node_modules/object-inspect/index.js",
+          "kind": "require-call",
+          "original": "object-inspect"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/qs/lib/formats.js": {
+      "bytes": 476,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/qs/lib/utils.js": {
+      "bytes": 6823,
+      "imports": [
+        {
+          "path": "node_modules/qs/lib/formats.js",
+          "kind": "require-call",
+          "original": "./formats"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/qs/lib/stringify.js": {
+      "bytes": 10358,
+      "imports": [
+        {
+          "path": "node_modules/side-channel/index.js",
+          "kind": "require-call",
+          "original": "side-channel"
+        },
+        {
+          "path": "node_modules/qs/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        },
+        {
+          "path": "node_modules/qs/lib/formats.js",
+          "kind": "require-call",
+          "original": "./formats"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/qs/lib/parse.js": {
+      "bytes": 9380,
+      "imports": [
+        {
+          "path": "node_modules/qs/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/qs/lib/index.js": {
+      "bytes": 211,
+      "imports": [
+        {
+          "path": "node_modules/qs/lib/stringify.js",
+          "kind": "require-call",
+          "original": "./stringify"
+        },
+        {
+          "path": "node_modules/qs/lib/parse.js",
+          "kind": "require-call",
+          "original": "./parse"
+        },
+        {
+          "path": "node_modules/qs/lib/formats.js",
+          "kind": "require-call",
+          "original": "./formats"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/lib/types/urlencoded.js": {
+      "bytes": 5797,
+      "imports": [
+        {
+          "path": "node_modules/bytes/index.js",
+          "kind": "require-call",
+          "original": "bytes"
+        },
+        {
+          "path": "node_modules/content-type/index.js",
+          "kind": "require-call",
+          "original": "content-type"
+        },
+        {
+          "path": "node_modules/http-errors/index.js",
+          "kind": "require-call",
+          "original": "http-errors"
+        },
+        {
+          "path": "node_modules/body-parser/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "node_modules/body-parser/lib/read.js",
+          "kind": "require-call",
+          "original": "../read"
+        },
+        {
+          "path": "node_modules/type-is/index.js",
+          "kind": "require-call",
+          "original": "type-is"
+        },
+        {
+          "path": "node_modules/qs/lib/index.js",
+          "kind": "require-call",
+          "original": "qs"
+        },
+        {
+          "path": "querystring",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/body-parser/index.js": {
+      "bytes": 2681,
+      "imports": [
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "node_modules/body-parser/lib/types/json.js",
+          "kind": "require-call",
+          "original": "./lib/types/json"
+        },
+        {
+          "path": "node_modules/body-parser/lib/types/raw.js",
+          "kind": "require-call",
+          "original": "./lib/types/raw"
+        },
+        {
+          "path": "node_modules/body-parser/lib/types/text.js",
+          "kind": "require-call",
+          "original": "./lib/types/text"
+        },
+        {
+          "path": "node_modules/body-parser/lib/types/urlencoded.js",
+          "kind": "require-call",
+          "original": "./lib/types/urlencoded"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/merge-descriptors/index.js": {
+      "bytes": 1215,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/finalhandler/node_modules/ms/index.js": {
+      "bytes": 2764,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/finalhandler/node_modules/debug/src/debug.js": {
+      "bytes": 4394,
+      "imports": [
+        {
+          "path": "node_modules/finalhandler/node_modules/ms/index.js",
+          "kind": "require-call",
+          "original": "ms"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/finalhandler/node_modules/debug/src/browser.js": {
+      "bytes": 4734,
+      "imports": [
+        {
+          "path": "node_modules/finalhandler/node_modules/debug/src/debug.js",
+          "kind": "require-call",
+          "original": "./debug"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/finalhandler/node_modules/debug/src/node.js": {
+      "bytes": 6015,
+      "imports": [
+        {
+          "path": "tty",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/finalhandler/node_modules/debug/src/debug.js",
+          "kind": "require-call",
+          "original": "./debug"
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/finalhandler/node_modules/debug/src/index.js": {
+      "bytes": 263,
+      "imports": [
+        {
+          "path": "node_modules/finalhandler/node_modules/debug/src/browser.js",
+          "kind": "require-call",
+          "original": "./browser.js"
+        },
+        {
+          "path": "node_modules/finalhandler/node_modules/debug/src/node.js",
+          "kind": "require-call",
+          "original": "./node.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/encodeurl/index.js": {
+      "bytes": 1586,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/escape-html/index.js": {
+      "bytes": 1362,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/parseurl/index.js": {
+      "bytes": 2809,
+      "imports": [
+        {
+          "path": "url",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/finalhandler/index.js": {
+      "bytes": 6689,
+      "imports": [
+        {
+          "path": "node_modules/finalhandler/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/encodeurl/index.js",
+          "kind": "require-call",
+          "original": "encodeurl"
+        },
+        {
+          "path": "node_modules/escape-html/index.js",
+          "kind": "require-call",
+          "original": "escape-html"
+        },
+        {
+          "path": "node_modules/on-finished/index.js",
+          "kind": "require-call",
+          "original": "on-finished"
+        },
+        {
+          "path": "node_modules/parseurl/index.js",
+          "kind": "require-call",
+          "original": "parseurl"
+        },
+        {
+          "path": "node_modules/statuses/index.js",
+          "kind": "require-call",
+          "original": "statuses"
+        },
+        {
+          "path": "node_modules/unpipe/index.js",
+          "kind": "require-call",
+          "original": "unpipe"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/node_modules/ms/index.js": {
+      "bytes": 2764,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/express/node_modules/debug/src/debug.js": {
+      "bytes": 4394,
+      "imports": [
+        {
+          "path": "node_modules/express/node_modules/ms/index.js",
+          "kind": "require-call",
+          "original": "ms"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/node_modules/debug/src/browser.js": {
+      "bytes": 4734,
+      "imports": [
+        {
+          "path": "node_modules/express/node_modules/debug/src/debug.js",
+          "kind": "require-call",
+          "original": "./debug"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/node_modules/debug/src/node.js": {
+      "bytes": 6015,
+      "imports": [
+        {
+          "path": "tty",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/express/node_modules/debug/src/debug.js",
+          "kind": "require-call",
+          "original": "./debug"
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/node_modules/debug/src/index.js": {
+      "bytes": 263,
+      "imports": [
+        {
+          "path": "node_modules/express/node_modules/debug/src/browser.js",
+          "kind": "require-call",
+          "original": "./browser.js"
+        },
+        {
+          "path": "node_modules/express/node_modules/debug/src/node.js",
+          "kind": "require-call",
+          "original": "./node.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/array-flatten/array-flatten.js": {
+      "bytes": 1195,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/path-to-regexp/index.js": {
+      "bytes": 3328,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/router/layer.js": {
+      "bytes": 3296,
+      "imports": [
+        {
+          "path": "node_modules/path-to-regexp/index.js",
+          "kind": "require-call",
+          "original": "path-to-regexp"
+        },
+        {
+          "path": "node_modules/express/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/methods/index.js": {
+      "bytes": 1040,
+      "imports": [
+        {
+          "path": "http",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/router/route.js": {
+      "bytes": 4281,
+      "imports": [
+        {
+          "path": "node_modules/express/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/array-flatten/array-flatten.js",
+          "kind": "require-call",
+          "original": "array-flatten"
+        },
+        {
+          "path": "node_modules/express/lib/router/layer.js",
+          "kind": "require-call",
+          "original": "./layer"
+        },
+        {
+          "path": "node_modules/methods/index.js",
+          "kind": "require-call",
+          "original": "methods"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/utils-merge/index.js": {
+      "bytes": 381,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/router/index.js": {
+      "bytes": 15124,
+      "imports": [
+        {
+          "path": "node_modules/express/lib/router/route.js",
+          "kind": "require-call",
+          "original": "./route"
+        },
+        {
+          "path": "node_modules/express/lib/router/layer.js",
+          "kind": "require-call",
+          "original": "./layer"
+        },
+        {
+          "path": "node_modules/methods/index.js",
+          "kind": "require-call",
+          "original": "methods"
+        },
+        {
+          "path": "node_modules/utils-merge/index.js",
+          "kind": "require-call",
+          "original": "utils-merge"
+        },
+        {
+          "path": "node_modules/express/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "node_modules/array-flatten/array-flatten.js",
+          "kind": "require-call",
+          "original": "array-flatten"
+        },
+        {
+          "path": "node_modules/parseurl/index.js",
+          "kind": "require-call",
+          "original": "parseurl"
+        },
+        {
+          "path": "node_modules/setprototypeof/index.js",
+          "kind": "require-call",
+          "original": "setprototypeof"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/middleware/init.js": {
+      "bytes": 853,
+      "imports": [
+        {
+          "path": "node_modules/setprototypeof/index.js",
+          "kind": "require-call",
+          "original": "setprototypeof"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/middleware/query.js": {
+      "bytes": 885,
+      "imports": [
+        {
+          "path": "node_modules/utils-merge/index.js",
+          "kind": "require-call",
+          "original": "utils-merge"
+        },
+        {
+          "path": "node_modules/parseurl/index.js",
+          "kind": "require-call",
+          "original": "parseurl"
+        },
+        {
+          "path": "node_modules/qs/lib/index.js",
+          "kind": "require-call",
+          "original": "qs"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/view.js": {
+      "bytes": 3325,
+      "imports": [
+        {
+          "path": "node_modules/express/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "<runtime>",
+          "kind": "import-statement",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/safe-buffer/index.js": {
+      "bytes": 1670,
+      "imports": [
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/content-disposition/index.js": {
+      "bytes": 10594,
+      "imports": [
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/safe-buffer/index.js",
+          "kind": "require-call",
+          "original": "safe-buffer"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/send/node_modules/debug/node_modules/ms/index.js": {
+      "bytes": 2764,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/send/node_modules/debug/src/debug.js": {
+      "bytes": 4394,
+      "imports": [
+        {
+          "path": "node_modules/send/node_modules/debug/node_modules/ms/index.js",
+          "kind": "require-call",
+          "original": "ms"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/send/node_modules/debug/src/browser.js": {
+      "bytes": 4734,
+      "imports": [
+        {
+          "path": "node_modules/send/node_modules/debug/src/debug.js",
+          "kind": "require-call",
+          "original": "./debug"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/send/node_modules/debug/src/node.js": {
+      "bytes": 6015,
+      "imports": [
+        {
+          "path": "tty",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/send/node_modules/debug/src/debug.js",
+          "kind": "require-call",
+          "original": "./debug"
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/send/node_modules/debug/src/index.js": {
+      "bytes": 263,
+      "imports": [
+        {
+          "path": "node_modules/send/node_modules/debug/src/browser.js",
+          "kind": "require-call",
+          "original": "./browser.js"
+        },
+        {
+          "path": "node_modules/send/node_modules/debug/src/node.js",
+          "kind": "require-call",
+          "original": "./node.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/etag/index.js": {
+      "bytes": 2479,
+      "imports": [
+        {
+          "path": "crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/fresh/index.js": {
+      "bytes": 2711,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/mime/types.json": {
+      "bytes": 31555,
+      "imports": []
+    },
+    "node_modules/mime/mime.js": {
+      "bytes": 2726,
+      "imports": [
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/mime/types.json",
+          "kind": "require-call",
+          "original": "./types.json"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/send/node_modules/ms/index.js": {
+      "bytes": 3024,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/range-parser/index.js": {
+      "bytes": 2900,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/send/index.js": {
+      "bytes": 23502,
+      "imports": [
+        {
+          "path": "node_modules/http-errors/index.js",
+          "kind": "require-call",
+          "original": "http-errors"
+        },
+        {
+          "path": "node_modules/send/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "node_modules/destroy/index.js",
+          "kind": "require-call",
+          "original": "destroy"
+        },
+        {
+          "path": "node_modules/encodeurl/index.js",
+          "kind": "require-call",
+          "original": "encodeurl"
+        },
+        {
+          "path": "node_modules/escape-html/index.js",
+          "kind": "require-call",
+          "original": "escape-html"
+        },
+        {
+          "path": "node_modules/etag/index.js",
+          "kind": "require-call",
+          "original": "etag"
+        },
+        {
+          "path": "node_modules/fresh/index.js",
+          "kind": "require-call",
+          "original": "fresh"
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/mime/mime.js",
+          "kind": "require-call",
+          "original": "mime"
+        },
+        {
+          "path": "node_modules/send/node_modules/ms/index.js",
+          "kind": "require-call",
+          "original": "ms"
+        },
+        {
+          "path": "node_modules/on-finished/index.js",
+          "kind": "require-call",
+          "original": "on-finished"
+        },
+        {
+          "path": "node_modules/range-parser/index.js",
+          "kind": "require-call",
+          "original": "range-parser"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/statuses/index.js",
+          "kind": "require-call",
+          "original": "statuses"
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/forwarded/index.js": {
+      "bytes": 1578,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/ipaddr.js/lib/ipaddr.js": {
+      "bytes": 19333,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/proxy-addr/index.js": {
+      "bytes": 6000,
+      "imports": [
+        {
+          "path": "node_modules/forwarded/index.js",
+          "kind": "require-call",
+          "original": "forwarded"
+        },
+        {
+          "path": "node_modules/ipaddr.js/lib/ipaddr.js",
+          "kind": "require-call",
+          "original": "ipaddr.js"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/utils.js": {
+      "bytes": 5955,
+      "imports": [
+        {
+          "path": "node_modules/safe-buffer/index.js",
+          "kind": "require-call",
+          "original": "safe-buffer"
+        },
+        {
+          "path": "node_modules/content-disposition/index.js",
+          "kind": "require-call",
+          "original": "content-disposition"
+        },
+        {
+          "path": "node_modules/content-type/index.js",
+          "kind": "require-call",
+          "original": "content-type"
+        },
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "node_modules/array-flatten/array-flatten.js",
+          "kind": "require-call",
+          "original": "array-flatten"
+        },
+        {
+          "path": "node_modules/send/index.js",
+          "kind": "require-call",
+          "original": "send"
+        },
+        {
+          "path": "node_modules/etag/index.js",
+          "kind": "require-call",
+          "original": "etag"
+        },
+        {
+          "path": "node_modules/proxy-addr/index.js",
+          "kind": "require-call",
+          "original": "proxy-addr"
+        },
+        {
+          "path": "node_modules/qs/lib/index.js",
+          "kind": "require-call",
+          "original": "qs"
+        },
+        {
+          "path": "querystring",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/application.js": {
+      "bytes": 14593,
+      "imports": [
+        {
+          "path": "node_modules/finalhandler/index.js",
+          "kind": "require-call",
+          "original": "finalhandler"
+        },
+        {
+          "path": "node_modules/express/lib/router/index.js",
+          "kind": "require-call",
+          "original": "./router"
+        },
+        {
+          "path": "node_modules/methods/index.js",
+          "kind": "require-call",
+          "original": "methods"
+        },
+        {
+          "path": "node_modules/express/lib/middleware/init.js",
+          "kind": "require-call",
+          "original": "./middleware/init"
+        },
+        {
+          "path": "node_modules/express/lib/middleware/query.js",
+          "kind": "require-call",
+          "original": "./middleware/query"
+        },
+        {
+          "path": "node_modules/express/node_modules/debug/src/index.js",
+          "kind": "require-call",
+          "original": "debug"
+        },
+        {
+          "path": "node_modules/express/lib/view.js",
+          "kind": "require-call",
+          "original": "./view"
+        },
+        {
+          "path": "http",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/express/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        },
+        {
+          "path": "node_modules/express/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        },
+        {
+          "path": "node_modules/express/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        },
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "node_modules/array-flatten/array-flatten.js",
+          "kind": "require-call",
+          "original": "array-flatten"
+        },
+        {
+          "path": "node_modules/utils-merge/index.js",
+          "kind": "require-call",
+          "original": "utils-merge"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/setprototypeof/index.js",
+          "kind": "require-call",
+          "original": "setprototypeof"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/negotiator/lib/charset.js": {
+      "bytes": 3081,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/negotiator/lib/encoding.js": {
+      "bytes": 3506,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/negotiator/lib/language.js": {
+      "bytes": 3409,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/negotiator/lib/mediaType.js": {
+      "bytes": 5358,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/negotiator/index.js": {
+      "bytes": 2451,
+      "imports": [
+        {
+          "path": "node_modules/negotiator/lib/charset.js",
+          "kind": "require-call",
+          "original": "./lib/charset"
+        },
+        {
+          "path": "node_modules/negotiator/lib/encoding.js",
+          "kind": "require-call",
+          "original": "./lib/encoding"
+        },
+        {
+          "path": "node_modules/negotiator/lib/language.js",
+          "kind": "require-call",
+          "original": "./lib/language"
+        },
+        {
+          "path": "node_modules/negotiator/lib/mediaType.js",
+          "kind": "require-call",
+          "original": "./lib/mediaType"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/accepts/index.js": {
+      "bytes": 5252,
+      "imports": [
+        {
+          "path": "node_modules/negotiator/index.js",
+          "kind": "require-call",
+          "original": "negotiator"
+        },
+        {
+          "path": "node_modules/mime-types/index.js",
+          "kind": "require-call",
+          "original": "mime-types"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/request.js": {
+      "bytes": 12505,
+      "imports": [
+        {
+          "path": "node_modules/accepts/index.js",
+          "kind": "require-call",
+          "original": "accepts"
+        },
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/type-is/index.js",
+          "kind": "require-call",
+          "original": "type-is"
+        },
+        {
+          "path": "http",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/fresh/index.js",
+          "kind": "require-call",
+          "original": "fresh"
+        },
+        {
+          "path": "node_modules/range-parser/index.js",
+          "kind": "require-call",
+          "original": "range-parser"
+        },
+        {
+          "path": "node_modules/parseurl/index.js",
+          "kind": "require-call",
+          "original": "parseurl"
+        },
+        {
+          "path": "node_modules/proxy-addr/index.js",
+          "kind": "require-call",
+          "original": "proxy-addr"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/cookie-signature/index.js": {
+      "bytes": 1230,
+      "imports": [
+        {
+          "path": "crypto",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/cookie/index.js": {
+      "bytes": 5224,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/vary/index.js": {
+      "bytes": 2930,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/response.js": {
+      "bytes": 28014,
+      "imports": [
+        {
+          "path": "node_modules/safe-buffer/index.js",
+          "kind": "require-call",
+          "original": "safe-buffer"
+        },
+        {
+          "path": "node_modules/content-disposition/index.js",
+          "kind": "require-call",
+          "original": "content-disposition"
+        },
+        {
+          "path": "node_modules/http-errors/index.js",
+          "kind": "require-call",
+          "original": "http-errors"
+        },
+        {
+          "path": "node_modules/depd/index.js",
+          "kind": "require-call",
+          "original": "depd"
+        },
+        {
+          "path": "node_modules/encodeurl/index.js",
+          "kind": "require-call",
+          "original": "encodeurl"
+        },
+        {
+          "path": "node_modules/escape-html/index.js",
+          "kind": "require-call",
+          "original": "escape-html"
+        },
+        {
+          "path": "http",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/express/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        },
+        {
+          "path": "node_modules/on-finished/index.js",
+          "kind": "require-call",
+          "original": "on-finished"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/statuses/index.js",
+          "kind": "require-call",
+          "original": "statuses"
+        },
+        {
+          "path": "node_modules/utils-merge/index.js",
+          "kind": "require-call",
+          "original": "utils-merge"
+        },
+        {
+          "path": "node_modules/cookie-signature/index.js",
+          "kind": "require-call",
+          "original": "cookie-signature"
+        },
+        {
+          "path": "node_modules/express/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        },
+        {
+          "path": "node_modules/express/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        },
+        {
+          "path": "node_modules/express/lib/utils.js",
+          "kind": "require-call",
+          "original": "./utils"
+        },
+        {
+          "path": "node_modules/cookie/index.js",
+          "kind": "require-call",
+          "original": "cookie"
+        },
+        {
+          "path": "node_modules/send/index.js",
+          "kind": "require-call",
+          "original": "send"
+        },
+        {
+          "path": "node_modules/vary/index.js",
+          "kind": "require-call",
+          "original": "vary"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/serve-static/index.js": {
+      "bytes": 4570,
+      "imports": [
+        {
+          "path": "node_modules/encodeurl/index.js",
+          "kind": "require-call",
+          "original": "encodeurl"
+        },
+        {
+          "path": "node_modules/escape-html/index.js",
+          "kind": "require-call",
+          "original": "escape-html"
+        },
+        {
+          "path": "node_modules/parseurl/index.js",
+          "kind": "require-call",
+          "original": "parseurl"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/send/index.js",
+          "kind": "require-call",
+          "original": "send"
+        },
+        {
+          "path": "url",
+          "kind": "require-call",
+          "external": true
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/lib/express.js": {
+      "bytes": 2409,
+      "imports": [
+        {
+          "path": "node_modules/body-parser/index.js",
+          "kind": "require-call",
+          "original": "body-parser"
+        },
+        {
+          "path": "events",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/merge-descriptors/index.js",
+          "kind": "require-call",
+          "original": "merge-descriptors"
+        },
+        {
+          "path": "node_modules/express/lib/application.js",
+          "kind": "require-call",
+          "original": "./application"
+        },
+        {
+          "path": "node_modules/express/lib/router/route.js",
+          "kind": "require-call",
+          "original": "./router/route"
+        },
+        {
+          "path": "node_modules/express/lib/router/index.js",
+          "kind": "require-call",
+          "original": "./router"
+        },
+        {
+          "path": "node_modules/express/lib/request.js",
+          "kind": "require-call",
+          "original": "./request"
+        },
+        {
+          "path": "node_modules/express/lib/response.js",
+          "kind": "require-call",
+          "original": "./response"
+        },
+        {
+          "path": "node_modules/express/lib/middleware/query.js",
+          "kind": "require-call",
+          "original": "./middleware/query"
+        },
+        {
+          "path": "node_modules/serve-static/index.js",
+          "kind": "require-call",
+          "original": "serve-static"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/express/index.js": {
+      "bytes": 224,
+      "imports": [
+        {
+          "path": "node_modules/express/lib/express.js",
+          "kind": "require-call",
+          "original": "./lib/express"
+        }
+      ],
+      "format": "cjs"
     },
     "node_modules/ws/lib/stream.js": {
       "bytes": 4083,
@@ -20996,8 +23191,430 @@
       ],
       "format": "esm"
     },
+    "node_modules/vscode-ws-jsonrpc/lib/disposable.js": {
+      "bytes": 969,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/vscode-ws-jsonrpc/lib/socket/socket.js": {
+      "bytes": 425,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js": {
+      "bytes": 834,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/is.js": {
+      "bytes": 1272,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/events.js": {
+      "bytes": 4514,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js",
+          "kind": "require-call",
+          "original": "./ral"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/semaphore.js": {
+      "bytes": 2197,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js",
+          "kind": "require-call",
+          "original": "./ral"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageReader.js": {
+      "bytes": 7834,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js",
+          "kind": "require-call",
+          "original": "./ral"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/is.js",
+          "kind": "require-call",
+          "original": "./is"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/events.js",
+          "kind": "require-call",
+          "original": "./events"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/semaphore.js",
+          "kind": "require-call",
+          "original": "./semaphore"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/lib/socket/reader.js": {
+      "bytes": 3086,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageReader.js",
+          "kind": "import-statement",
+          "original": "vscode-jsonrpc/lib/common/messageReader.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageWriter.js": {
+      "bytes": 4439,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js",
+          "kind": "require-call",
+          "original": "./ral"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/is.js",
+          "kind": "require-call",
+          "original": "./is"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/semaphore.js",
+          "kind": "require-call",
+          "original": "./semaphore"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/events.js",
+          "kind": "require-call",
+          "original": "./events"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/lib/socket/writer.js": {
+      "bytes": 972,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageWriter.js",
+          "kind": "import-statement",
+          "original": "vscode-jsonrpc/lib/common/messageWriter.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messages.js": {
+      "bytes": 10373,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/is.js",
+          "kind": "require-call",
+          "original": "./is"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/linkedMap.js": {
+      "bytes": 11767,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/disposable.js": {
+      "bytes": 685,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/cancellation.js": {
+      "bytes": 3296,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js",
+          "kind": "require-call",
+          "original": "./ral"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/is.js",
+          "kind": "require-call",
+          "original": "./is"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/events.js",
+          "kind": "require-call",
+          "original": "./events"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/sharedArrayCancellation.js": {
+      "bytes": 2640,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/cancellation.js",
+          "kind": "require-call",
+          "original": "./cancellation"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageBuffer.js": {
+      "bytes": 5646,
+      "imports": [],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/connection.js": {
+      "bytes": 51184,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js",
+          "kind": "require-call",
+          "original": "./ral"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/is.js",
+          "kind": "require-call",
+          "original": "./is"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messages.js",
+          "kind": "require-call",
+          "original": "./messages"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/linkedMap.js",
+          "kind": "require-call",
+          "original": "./linkedMap"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/events.js",
+          "kind": "require-call",
+          "original": "./events"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/cancellation.js",
+          "kind": "require-call",
+          "original": "./cancellation"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/api.js": {
+      "bytes": 10611,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messages.js",
+          "kind": "require-call",
+          "original": "./messages"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/linkedMap.js",
+          "kind": "require-call",
+          "original": "./linkedMap"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/disposable.js",
+          "kind": "require-call",
+          "original": "./disposable"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/events.js",
+          "kind": "require-call",
+          "original": "./events"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/cancellation.js",
+          "kind": "require-call",
+          "original": "./cancellation"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/sharedArrayCancellation.js",
+          "kind": "require-call",
+          "original": "./sharedArrayCancellation"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageReader.js",
+          "kind": "require-call",
+          "original": "./messageReader"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageWriter.js",
+          "kind": "require-call",
+          "original": "./messageWriter"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageBuffer.js",
+          "kind": "require-call",
+          "original": "./messageBuffer"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/connection.js",
+          "kind": "require-call",
+          "original": "./connection"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js",
+          "kind": "require-call",
+          "original": "./ral"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/node/ril.js": {
+      "bytes": 5392,
+      "imports": [
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/api.js",
+          "kind": "require-call",
+          "original": "../common/api"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/node/main.js": {
+      "bytes": 9778,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/node/ril.js",
+          "kind": "require-call",
+          "original": "./ril"
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/api.js",
+          "kind": "require-call",
+          "original": "../common/api"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/api.js",
+          "kind": "require-call",
+          "original": "../common/api"
+        }
+      ],
+      "format": "cjs"
+    },
+    "node_modules/vscode-ws-jsonrpc/lib/socket/connection.js": {
+      "bytes": 940,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/node/main.js",
+          "kind": "import-statement",
+          "original": "vscode-jsonrpc"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/socket/reader.js",
+          "kind": "import-statement",
+          "original": "./reader.js"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/socket/writer.js",
+          "kind": "import-statement",
+          "original": "./writer.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/vscode-ws-jsonrpc/lib/socket/index.js": {
+      "bytes": 536,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/socket/socket.js",
+          "kind": "import-statement",
+          "original": "./socket.js"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/socket/reader.js",
+          "kind": "import-statement",
+          "original": "./reader.js"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/socket/writer.js",
+          "kind": "import-statement",
+          "original": "./writer.js"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/socket/connection.js",
+          "kind": "import-statement",
+          "original": "./connection.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/vscode-ws-jsonrpc/lib/logger.js": {
+      "bytes": 369,
+      "imports": [],
+      "format": "esm"
+    },
+    "node_modules/vscode-ws-jsonrpc/lib/connection.js": {
+      "bytes": 1437,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/socket/connection.js",
+          "kind": "import-statement",
+          "original": "./socket/connection.js"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/logger.js",
+          "kind": "import-statement",
+          "original": "./logger.js"
+        }
+      ],
+      "format": "esm"
+    },
+    "node_modules/vscode-ws-jsonrpc/lib/index.js": {
+      "bytes": 546,
+      "imports": [
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/disposable.js",
+          "kind": "import-statement",
+          "original": "./disposable.js"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/socket/index.js",
+          "kind": "import-statement",
+          "original": "./socket/index.js"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/logger.js",
+          "kind": "import-statement",
+          "original": "./logger.js"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/connection.js",
+          "kind": "import-statement",
+          "original": "./connection.js"
+        }
+      ],
+      "format": "esm"
+    },
     "out/web/app.js": {
-      "bytes": 2680,
+      "bytes": 4203,
       "imports": [
         {
           "path": "node_modules/vscode-languageserver/node.js",
@@ -21015,9 +23632,29 @@
           "original": "langium"
         },
         {
+          "path": "node_modules/express/index.js",
+          "kind": "import-statement",
+          "original": "express"
+        },
+        {
           "path": "node_modules/ws/wrapper.mjs",
           "kind": "import-statement",
           "original": "ws"
+        },
+        {
+          "path": "node_modules/vscode-ws-jsonrpc/lib/index.js",
+          "kind": "import-statement",
+          "original": "vscode-ws-jsonrpc"
+        },
+        {
+          "path": "path",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "url",
+          "kind": "import-statement",
+          "external": true
         }
       ],
       "format": "esm"
@@ -21068,6 +23705,316 @@
         },
         {
           "path": "child_process",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "tty",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "events",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "zlib",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "string_decoder",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "async_hooks",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "async_hooks",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "zlib",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "querystring",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "tty",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "url",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "tty",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "http",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "buffer",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "tty",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "fs",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "stream",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "querystring",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "http",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "http",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "http",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "url",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "events",
           "kind": "require-call",
           "external": true
         },
@@ -21170,9 +24117,47 @@
           "path": "crypto",
           "kind": "require-call",
           "external": true
+        },
+        {
+          "path": "util",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "os",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "crypto",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "net",
+          "kind": "require-call",
+          "external": true
+        },
+        {
+          "path": "path",
+          "kind": "import-statement",
+          "external": true
+        },
+        {
+          "path": "url",
+          "kind": "import-statement",
+          "external": true
         }
       ],
-      "exports": [],
+      "exports": [
+        "getLocalDirectory",
+        "runServer"
+      ],
       "entryPoint": "out/web/app.js",
       "inputs": {
         "node_modules/vscode-languageserver/lib/common/utils/is.js": {
@@ -21215,19 +24200,19 @@
           "bytesInOutput": 4223
         },
         "node_modules/vscode-jsonrpc/lib/common/connection.js": {
-          "bytesInOutput": 44282
+          "bytesInOutput": 44284
         },
         "node_modules/vscode-jsonrpc/lib/common/api.js": {
           "bytesInOutput": 10294
         },
         "node_modules/vscode-jsonrpc/lib/node/main.js": {
-          "bytesInOutput": 8647
+          "bytesInOutput": 8649
         },
         "node_modules/vscode-jsonrpc/node.js": {
           "bytesInOutput": 157
         },
         "node_modules/vscode-languageserver-types/lib/umd/main.js": {
-          "bytesInOutput": 67415
+          "bytesInOutput": 67419
         },
         "node_modules/vscode-languageserver-protocol/lib/common/messages.js": {
           "bytesInOutput": 1862
@@ -21293,7 +24278,7 @@
           "bytesInOutput": 2886
         },
         "node_modules/vscode-languageserver-protocol/lib/common/protocol.notebook.js": {
-          "bytesInOutput": 9683
+          "bytesInOutput": 9695
         },
         "node_modules/vscode-languageserver-protocol/lib/common/protocol.js": {
           "bytesInOutput": 43780
@@ -21347,7 +24332,7 @@
           "bytesInOutput": 1487
         },
         "node_modules/vscode-languageserver/lib/common/textDocuments.js": {
-          "bytesInOutput": 6660
+          "bytesInOutput": 6673
         },
         "node_modules/vscode-languageserver/lib/common/notebook.js": {
           "bytesInOutput": 11171
@@ -21374,10 +24359,394 @@
           "bytesInOutput": 166
         },
         "node_modules/vscode-languageserver-textdocument/lib/umd/main.js": {
-          "bytesInOutput": 10863
+          "bytesInOutput": 10871
         },
         "node_modules/vscode-uri/lib/umd/index.js": {
           "bytesInOutput": 21210
+        },
+        "node_modules/depd/index.js": {
+          "bytesInOutput": 9947
+        },
+        "node_modules/bytes/index.js": {
+          "bytesInOutput": 2659
+        },
+        "node_modules/content-type/index.js": {
+          "bytesInOutput": 3645
+        },
+        "node_modules/setprototypeof/index.js": {
+          "bytesInOutput": 553
+        },
+        "node_modules/statuses/codes.json": {
+          "bytesInOutput": 2167
+        },
+        "node_modules/statuses/index.js": {
+          "bytesInOutput": 1900
+        },
+        "node_modules/inherits/inherits_browser.js": {
+          "bytesInOutput": 898
+        },
+        "node_modules/inherits/inherits.js": {
+          "bytesInOutput": 339
+        },
+        "node_modules/toidentifier/index.js": {
+          "bytesInOutput": 364
+        },
+        "node_modules/http-errors/index.js": {
+          "bytesInOutput": 5741
+        },
+        "node_modules/body-parser/node_modules/ms/index.js": {
+          "bytesInOutput": 2578
+        },
+        "node_modules/body-parser/node_modules/debug/src/debug.js": {
+          "bytesInOutput": 3397
+        },
+        "node_modules/body-parser/node_modules/debug/src/browser.js": {
+          "bytesInOutput": 3171
+        },
+        "node_modules/body-parser/node_modules/debug/src/node.js": {
+          "bytesInOutput": 4227
+        },
+        "node_modules/body-parser/node_modules/debug/src/index.js": {
+          "bytesInOutput": 297
+        },
+        "node_modules/destroy/index.js": {
+          "bytesInOutput": 2821
+        },
+        "node_modules/safer-buffer/safer.js": {
+          "bytesInOutput": 2348
+        },
+        "node_modules/iconv-lite/lib/bom-handling.js": {
+          "bytesInOutput": 1224
+        },
+        "node_modules/iconv-lite/encodings/internal.js": {
+          "bytesInOutput": 4831
+        },
+        "node_modules/iconv-lite/encodings/utf16.js": {
+          "bytesInOutput": 3959
+        },
+        "node_modules/iconv-lite/encodings/utf7.js": {
+          "bytesInOutput": 7367
+        },
+        "node_modules/iconv-lite/encodings/sbcs-codec.js": {
+          "bytesInOutput": 2094
+        },
+        "node_modules/iconv-lite/encodings/sbcs-data.js": {
+          "bytesInOutput": 6294
+        },
+        "node_modules/iconv-lite/encodings/sbcs-data-generated.js": {
+          "bytesInOutput": 61932
+        },
+        "node_modules/iconv-lite/encodings/dbcs-codec.js": {
+          "bytesInOutput": 15001
+        },
+        "node_modules/iconv-lite/encodings/tables/shiftjis.json": {
+          "bytesInOutput": 46889
+        },
+        "node_modules/iconv-lite/encodings/tables/eucjp.json": {
+          "bytesInOutput": 81225
+        },
+        "node_modules/iconv-lite/encodings/tables/cp936.json": {
+          "bytesInOutput": 90738
+        },
+        "node_modules/iconv-lite/encodings/tables/gbk-added.json": {
+          "bytesInOutput": 2207
+        },
+        "node_modules/iconv-lite/encodings/tables/gb18030-ranges.json": {
+          "bytesInOutput": 2788
+        },
+        "node_modules/iconv-lite/encodings/tables/cp949.json": {
+          "bytesInOutput": 72751
+        },
+        "node_modules/iconv-lite/encodings/tables/cp950.json": {
+          "bytesInOutput": 83773
+        },
+        "node_modules/iconv-lite/encodings/tables/big5-added.json": {
+          "bytesInOutput": 36625
+        },
+        "node_modules/iconv-lite/encodings/dbcs-data.js": {
+          "bytesInOutput": 8433
+        },
+        "node_modules/iconv-lite/encodings/index.js": {
+          "bytesInOutput": 624
+        },
+        "node_modules/iconv-lite/lib/streams.js": {
+          "bytesInOutput": 3336
+        },
+        "node_modules/iconv-lite/lib/extend-node.js": {
+          "bytesInOutput": 7040
+        },
+        "node_modules/iconv-lite/lib/index.js": {
+          "bytesInOutput": 3968
+        },
+        "node_modules/unpipe/index.js": {
+          "bytesInOutput": 995
+        },
+        "node_modules/raw-body/index.js": {
+          "bytesInOutput": 5758
+        },
+        "node_modules/ee-first/index.js": {
+          "bytesInOutput": 1539
+        },
+        "node_modules/on-finished/index.js": {
+          "bytesInOutput": 3211
+        },
+        "node_modules/body-parser/lib/read.js": {
+          "bytesInOutput": 3909
+        },
+        "node_modules/media-typer/index.js": {
+          "bytesInOutput": 4125
+        },
+        "node_modules/mime-db/db.json": {
+          "bytesInOutput": 212410
+        },
+        "node_modules/mime-db/index.js": {
+          "bytesInOutput": 134
+        },
+        "node_modules/mime-types/index.js": {
+          "bytesInOutput": 2918
+        },
+        "node_modules/type-is/index.js": {
+          "bytesInOutput": 3068
+        },
+        "node_modules/body-parser/lib/types/json.js": {
+          "bytesInOutput": 3848
+        },
+        "node_modules/body-parser/lib/types/raw.js": {
+          "bytesInOutput": 1642
+        },
+        "node_modules/body-parser/lib/types/text.js": {
+          "bytesInOutput": 1979
+        },
+        "node_modules/has-symbols/shams.js": {
+          "bytesInOutput": 1586
+        },
+        "node_modules/has-symbols/index.js": {
+          "bytesInOutput": 622
+        },
+        "node_modules/has-proto/index.js": {
+          "bytesInOutput": 331
+        },
+        "node_modules/function-bind/implementation.js": {
+          "bytesInOutput": 1577
+        },
+        "node_modules/function-bind/index.js": {
+          "bytesInOutput": 244
+        },
+        "node_modules/has/src/index.js": {
+          "bytesInOutput": 234
+        },
+        "node_modules/get-intrinsic/index.js": {
+          "bytesInOutput": 14013
+        },
+        "node_modules/call-bind/index.js": {
+          "bytesInOutput": 1461
+        },
+        "node_modules/call-bind/callBound.js": {
+          "bytesInOutput": 571
+        },
+        "node_modules/object-inspect/util.inspect.js": {
+          "bytesInOutput": 166
+        },
+        "node_modules/object-inspect/index.js": {
+          "bytesInOutput": 18699
+        },
+        "node_modules/side-channel/index.js": {
+          "bytesInOutput": 3328
+        },
+        "node_modules/qs/lib/formats.js": {
+          "bytesInOutput": 609
+        },
+        "node_modules/qs/lib/utils.js": {
+          "bytesInOutput": 6384
+        },
+        "node_modules/qs/lib/stringify.js": {
+          "bytesInOutput": 10219
+        },
+        "node_modules/qs/lib/parse.js": {
+          "bytesInOutput": 8439
+        },
+        "node_modules/qs/lib/index.js": {
+          "bytesInOutput": 298
+        },
+        "node_modules/body-parser/lib/types/urlencoded.js": {
+          "bytesInOutput": 5109
+        },
+        "node_modules/body-parser/index.js": {
+          "bytesInOutput": 2121
+        },
+        "node_modules/merge-descriptors/index.js": {
+          "bytesInOutput": 836
+        },
+        "node_modules/finalhandler/node_modules/ms/index.js": {
+          "bytesInOutput": 2580
+        },
+        "node_modules/finalhandler/node_modules/debug/src/debug.js": {
+          "bytesInOutput": 3400
+        },
+        "node_modules/finalhandler/node_modules/debug/src/browser.js": {
+          "bytesInOutput": 3174
+        },
+        "node_modules/finalhandler/node_modules/debug/src/node.js": {
+          "bytesInOutput": 4229
+        },
+        "node_modules/finalhandler/node_modules/debug/src/index.js": {
+          "bytesInOutput": 300
+        },
+        "node_modules/encodeurl/index.js": {
+          "bytesInOutput": 643
+        },
+        "node_modules/escape-html/index.js": {
+          "bytesInOutput": 1184
+        },
+        "node_modules/parseurl/index.js": {
+          "bytesInOutput": 2093
+        },
+        "node_modules/finalhandler/index.js": {
+          "bytesInOutput": 4822
+        },
+        "node_modules/express/node_modules/ms/index.js": {
+          "bytesInOutput": 2575
+        },
+        "node_modules/express/node_modules/debug/src/debug.js": {
+          "bytesInOutput": 3395
+        },
+        "node_modules/express/node_modules/debug/src/browser.js": {
+          "bytesInOutput": 3169
+        },
+        "node_modules/express/node_modules/debug/src/node.js": {
+          "bytesInOutput": 4224
+        },
+        "node_modules/express/node_modules/debug/src/index.js": {
+          "bytesInOutput": 295
+        },
+        "node_modules/array-flatten/array-flatten.js": {
+          "bytesInOutput": 963
+        },
+        "node_modules/path-to-regexp/index.js": {
+          "bytesInOutput": 2746
+        },
+        "node_modules/express/lib/router/layer.js": {
+          "bytesInOutput": 2661
+        },
+        "node_modules/methods/index.js": {
+          "bytesInOutput": 931
+        },
+        "node_modules/express/lib/router/route.js": {
+          "bytesInOutput": 3434
+        },
+        "node_modules/utils-merge/index.js": {
+          "bytesInOutput": 277
+        },
+        "node_modules/express/lib/router/index.js": {
+          "bytesInOutput": 11835
+        },
+        "node_modules/express/lib/middleware/init.js": {
+          "bytesInOutput": 610
+        },
+        "node_modules/express/lib/middleware/query.js": {
+          "bytesInOutput": 768
+        },
+        "node_modules/express/lib/view.js": {
+          "bytesInOutput": 2486
+        },
+        "node_modules/safe-buffer/index.js": {
+          "bytesInOutput": 1747
+        },
+        "node_modules/content-disposition/index.js": {
+          "bytesInOutput": 6140
+        },
+        "node_modules/send/node_modules/debug/node_modules/ms/index.js": {
+          "bytesInOutput": 2591
+        },
+        "node_modules/send/node_modules/debug/src/debug.js": {
+          "bytesInOutput": 3392
+        },
+        "node_modules/send/node_modules/debug/src/browser.js": {
+          "bytesInOutput": 3166
+        },
+        "node_modules/send/node_modules/debug/src/node.js": {
+          "bytesInOutput": 4221
+        },
+        "node_modules/send/node_modules/debug/src/index.js": {
+          "bytesInOutput": 292
+        },
+        "node_modules/etag/index.js": {
+          "bytesInOutput": 1759
+        },
+        "node_modules/fresh/index.js": {
+          "bytesInOutput": 2146
+        },
+        "node_modules/mime/types.json": {
+          "bytesInOutput": 33606
+        },
+        "node_modules/mime/mime.js": {
+          "bytesInOutput": 1929
+        },
+        "node_modules/send/node_modules/ms/index.js": {
+          "bytesInOutput": 2903
+        },
+        "node_modules/range-parser/index.js": {
+          "bytesInOutput": 2266
+        },
+        "node_modules/send/index.js": {
+          "bytesInOutput": 19519
+        },
+        "node_modules/forwarded/index.js": {
+          "bytesInOutput": 1257
+        },
+        "node_modules/ipaddr.js/lib/ipaddr.js": {
+          "bytesInOutput": 21791
+        },
+        "node_modules/proxy-addr/index.js": {
+          "bytesInOutput": 5047
+        },
+        "node_modules/express/lib/utils.js": {
+          "bytesInOutput": 4124
+        },
+        "node_modules/express/lib/application.js": {
+          "bytesInOutput": 9257
+        },
+        "node_modules/negotiator/lib/charset.js": {
+          "bytesInOutput": 2607
+        },
+        "node_modules/negotiator/lib/encoding.js": {
+          "bytesInOutput": 2938
+        },
+        "node_modules/negotiator/lib/language.js": {
+          "bytesInOutput": 2975
+        },
+        "node_modules/negotiator/lib/mediaType.js": {
+          "bytesInOutput": 4838
+        },
+        "node_modules/negotiator/index.js": {
+          "bytesInOutput": 2386
+        },
+        "node_modules/accepts/index.js": {
+          "bytesInOutput": 2809
+        },
+        "node_modules/express/lib/request.js": {
+          "bytesInOutput": 5881
+        },
+        "node_modules/cookie-signature/index.js": {
+          "bytesInOutput": 1010
+        },
+        "node_modules/cookie/index.js": {
+          "bytesInOutput": 4269
+        },
+        "node_modules/vary/index.js": {
+          "bytesInOutput": 2164
+        },
+        "node_modules/express/lib/response.js": {
+          "bytesInOutput": 17658
+        },
+        "node_modules/serve-static/index.js": {
+          "bytesInOutput": 3785
+        },
+        "node_modules/express/lib/express.js": {
+          "bytesInOutput": 2131
+        },
+        "node_modules/express/index.js": {
+          "bytesInOutput": 158
         },
         "node_modules/ws/lib/stream.js": {
           "bytesInOutput": 2979
@@ -21410,7 +24779,7 @@
           "bytesInOutput": 5902
         },
         "node_modules/ws/lib/websocket.js": {
-          "bytesInOutput": 30232
+          "bytesInOutput": 30241
         },
         "node_modules/ws/lib/subprotocol.js": {
           "bytesInOutput": 1548
@@ -21418,8 +24787,56 @@
         "node_modules/ws/lib/websocket-server.js": {
           "bytesInOutput": 14896
         },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/ral.js": {
+          "bytesInOutput": 656
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/is.js": {
+          "bytesInOutput": 1180
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/events.js": {
+          "bytesInOutput": 4015
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/semaphore.js": {
+          "bytesInOutput": 1950
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageReader.js": {
+          "bytesInOutput": 7152
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageWriter.js": {
+          "bytesInOutput": 4258
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messages.js": {
+          "bytesInOutput": 8918
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/linkedMap.js": {
+          "bytesInOutput": 10258
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/disposable.js": {
+          "bytesInOutput": 515
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/cancellation.js": {
+          "bytesInOutput": 2820
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/sharedArrayCancellation.js": {
+          "bytesInOutput": 2621
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/messageBuffer.js": {
+          "bytesInOutput": 4908
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/connection.js": {
+          "bytesInOutput": 46439
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/common/api.js": {
+          "bytesInOutput": 11263
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/node/ril.js": {
+          "bytesInOutput": 5111
+        },
+        "node_modules/vscode-ws-jsonrpc/node_modules/vscode-jsonrpc/lib/node/main.js": {
+          "bytesInOutput": 9966
+        },
         "out/web/app.js": {
-          "bytesInOutput": 1534
+          "bytesInOutput": 2183
         },
         "node_modules/langium/lib/default-module.js": {
           "bytesInOutput": 3681
@@ -21527,7 +24944,7 @@
           "bytesInOutput": 1903
         },
         "node_modules/langium/lib/references/scope-computation.js": {
-          "bytesInOutput": 3160
+          "bytesInOutput": 3173
         },
         "node_modules/langium/lib/utils/caching.js": {
           "bytesInOutput": 2812
@@ -21536,31 +24953,31 @@
           "bytesInOutput": 2153
         },
         "node_modules/langium/lib/grammar/references/grammar-scope.js": {
-          "bytesInOutput": 4946
+          "bytesInOutput": 4960
         },
         "node_modules/langium/lib/grammar/lsp/grammar-code-actions.js": {
-          "bytesInOutput": 12853
+          "bytesInOutput": 12904
         },
         "node_modules/langium/lib/validation/document-validator.js": {
-          "bytesInOutput": 6673
+          "bytesInOutput": 6678
         },
         "node_modules/langium/lib/grammar/lsp/grammar-completion-provider.js": {
-          "bytesInOutput": 2378
+          "bytesInOutput": 2383
         },
         "node_modules/langium/lib/lsp/completion/completion-provider.js": {
-          "bytesInOutput": 13326
+          "bytesInOutput": 13345
         },
         "node_modules/langium/lib/lsp/completion/follow-element-computation.js": {
           "bytesInOutput": 7278
         },
         "node_modules/langium/lib/lsp/folding-range-provider.js": {
-          "bytesInOutput": 3784
+          "bytesInOutput": 3797
         },
         "node_modules/langium/lib/grammar/lsp/grammar-folding-ranges.js": {
           "bytesInOutput": 155
         },
         "node_modules/langium/lib/lsp/formatter.js": {
-          "bytesInOutput": 19475
+          "bytesInOutput": 19502
         },
         "node_modules/langium/lib/grammar/lsp/grammar-formatter.js": {
           "bytesInOutput": 2854
@@ -21569,7 +24986,7 @@
           "bytesInOutput": 1874
         },
         "node_modules/langium/lib/lsp/semantic-token-provider.js": {
-          "bytesInOutput": 11337
+          "bytesInOutput": 11357
         },
         "node_modules/langium/lib/grammar/references/grammar-naming.js": {
           "bytesInOutput": 377
@@ -21587,16 +25004,16 @@
           "bytesInOutput": 0
         },
         "node_modules/langium/lib/lsp/call-hierarchy-provider.js": {
-          "bytesInOutput": 2412
+          "bytesInOutput": 2424
         },
         "node_modules/langium/lib/lsp/definition-provider.js": {
-          "bytesInOutput": 1484
+          "bytesInOutput": 1487
         },
         "node_modules/langium/lib/lsp/document-highlight-provider.js": {
-          "bytesInOutput": 1345
+          "bytesInOutput": 1350
         },
         "node_modules/langium/lib/lsp/document-symbol-provider.js": {
-          "bytesInOutput": 1162
+          "bytesInOutput": 1170
         },
         "node_modules/langium/lib/lsp/execute-command-handler.js": {
           "bytesInOutput": 66
@@ -21605,7 +25022,7 @@
           "bytesInOutput": 1295
         },
         "node_modules/langium/lib/lsp/hover-provider.js": {
-          "bytesInOutput": 1304
+          "bytesInOutput": 1307
         },
         "node_modules/langium/lib/lsp/implementation-provider.js": {
           "bytesInOutput": 66
@@ -21614,10 +25031,10 @@
           "bytesInOutput": 66
         },
         "node_modules/langium/lib/lsp/language-server.js": {
-          "bytesInOutput": 21000
+          "bytesInOutput": 21058
         },
         "node_modules/langium/lib/workspace/documents.js": {
-          "bytesInOutput": 6001
+          "bytesInOutput": 6020
         },
         "node_modules/langium/lib/lsp/signature-help-provider.js": {
           "bytesInOutput": 854
@@ -21626,10 +25043,10 @@
           "bytesInOutput": 295
         },
         "node_modules/langium/lib/lsp/references-provider.js": {
-          "bytesInOutput": 1218
+          "bytesInOutput": 1222
         },
         "node_modules/langium/lib/lsp/rename-provider.js": {
-          "bytesInOutput": 2082
+          "bytesInOutput": 2087
         },
         "node_modules/langium/lib/lsp/type-provider.js": {
           "bytesInOutput": 66
@@ -21650,7 +25067,7 @@
           "bytesInOutput": 11891
         },
         "node_modules/langium/lib/grammar/langium-grammar-module.js": {
-          "bytesInOutput": 2258
+          "bytesInOutput": 2261
         },
         "node_modules/langium/lib/workspace/file-system-provider.js": {
           "bytesInOutput": 309
@@ -21740,7 +25157,7 @@
           "bytesInOutput": 171
         },
         "node_modules/lodash-es/_WeakMap.js": {
-          "bytesInOutput": 89
+          "bytesInOutput": 91
         },
         "node_modules/lodash-es/_baseCreate.js": {
           "bytesInOutput": 398
@@ -22052,7 +25469,7 @@
           "bytesInOutput": 154
         },
         "node_modules/lodash-es/_DataView.js": {
-          "bytesInOutput": 93
+          "bytesInOutput": 95
         },
         "node_modules/lodash-es/_Promise.js": {
           "bytesInOutput": 91
@@ -22529,7 +25946,7 @@
           "bytesInOutput": 2191
         },
         "node_modules/langium/lib/references/linker.js": {
-          "bytesInOutput": 4676
+          "bytesInOutput": 4687
         },
         "node_modules/langium/lib/serializer/json-serializer.js": {
           "bytesInOutput": 5277
@@ -22538,7 +25955,7 @@
           "bytesInOutput": 1381
         },
         "node_modules/langium/lib/workspace/ast-descriptions.js": {
-          "bytesInOutput": 2376
+          "bytesInOutput": 2380
         },
         "node_modules/langium/lib/workspace/ast-node-locator.js": {
           "bytesInOutput": 1421
@@ -22547,13 +25964,13 @@
           "bytesInOutput": 2248
         },
         "node_modules/langium/lib/workspace/document-builder.js": {
-          "bytesInOutput": 9236
+          "bytesInOutput": 9260
         },
         "node_modules/langium/lib/workspace/index-manager.js": {
-          "bytesInOutput": 2940
+          "bytesInOutput": 2950
         },
         "node_modules/langium/lib/workspace/workspace-manager.js": {
-          "bytesInOutput": 3642
+          "bytesInOutput": 3648
         },
         "node_modules/langium/lib/parser/lexer.js": {
           "bytesInOutput": 1562
@@ -22562,7 +25979,7 @@
           "bytesInOutput": 15677
         },
         "node_modules/langium/lib/documentation/documentation-provider.js": {
-          "bytesInOutput": 1821
+          "bytesInOutput": 1823
         },
         "node_modules/langium/lib/documentation/comment-provider.js": {
           "bytesInOutput": 380
@@ -22610,16 +26027,31 @@
           "bytesInOutput": 622
         },
         "out/language/hello-semantic-tokens.js": {
-          "bytesInOutput": 798
+          "bytesInOutput": 854
         },
         "out/language/hello-world-module.js": {
           "bytesInOutput": 570
         },
         "node_modules/ws/wrapper.mjs": {
           "bytesInOutput": 282
+        },
+        "node_modules/vscode-ws-jsonrpc/lib/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/vscode-ws-jsonrpc/lib/socket/index.js": {
+          "bytesInOutput": 0
+        },
+        "node_modules/vscode-ws-jsonrpc/lib/socket/reader.js": {
+          "bytesInOutput": 2111
+        },
+        "node_modules/vscode-ws-jsonrpc/lib/socket/writer.js": {
+          "bytesInOutput": 472
+        },
+        "node_modules/vscode-ws-jsonrpc/lib/socket/connection.js": {
+          "bytesInOutput": 58
         }
       },
-      "bytes": 1385256
+      "bytes": 2684525
     }
   }
 }
